@@ -1,0 +1,246 @@
+/*Style CSS*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+/* https://coolors.co/124e78-0b132b-1c2541-5bc0be-6fffe9 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --light-yellow-bg: #fbe8b3;
+  --dark-blue: #264caa;
+  --yankees-blue: #58aae7;
+  --sea-serpent: #8cd6f4;
+  --aquamarine: #c1ecf8;
+  --react: #dde9f7;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #fbe8b3;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+/*//////////////
+//   header  //
+////////////*/
+
+header {
+  min-width: 100%;
+}
+.nav-bar {
+  border-bottom: 2px solid var(--aquamarine);
+}
+
+.nav-bar ul {
+  background-color: var(--yankees-blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  min-width: 100vw;
+  height: 8vh;
+  z-index: 11;
+}
+.nav-bar ul li {
+  list-style: none;
+}
+
+.nav-bar ul li a img {
+  width: 30px;
+  height: auto;
+}
+
+.nav-bar ul li a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  z-index: 11;
+}
+.nav-bar ul li a:hover {
+  color: #f7cb15;
+}
+
+.header-ld {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  margin-top: 5%;
+  height: 100%;
+  min-height: 120%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+h2 {
+  color: var(--yankees-blue);
+  margin-bottom: 10%;
+  font-size: 5.1rem;
+  font-weight: 600;
+  letter-spacing: 15px;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: var(--sea-serpent);
+  border: none;
+  color: var(--dark-blue);
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10%;
+  font-size: 1.2rem;
+}
+
+.btn-answer {
+  background-color: var(--react);
+  border: 1px solid #f7cb15;
+  color: var(--dark-blue);
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+.answer-card {
+  width: 60vw;
+  min-height: 50vh;
+  background-color: var(--aquamarine);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.card-title {
+  width: 100%;
+  min-height: 50%;
+  background-color: var(--dark-blue);
+}
+
+.card-title h3 {
+  padding: 20px;
+  font-size: 2rem;
+  color: var(--react);
+}
+
+.extra-info-card {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.answer-format,
+.extra-info-card {
+  margin-top: 3%;
+}
+
+.extra-info-card p,
+.answer-format p {
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--dark-blue);
+}
+
+.extra-info-card span {
+  color: #5d5d5e;
+}
+
+.answer-format p span {
+  color: #5d5d5e;
+  font-size: 1.5rem;
+}
+.answer-format p {
+  font-size: 1.5rem;
+}
+
+.main-score {
+  margin-top: -10%;
+  margin-bottom: 5%;
+
+  padding: 20px;
+}
+.main-score h2 {
+  font-size: 1.9rem;
+}
+.main-score h2 span {
+  font-size: 2rem;
+  color: var(--dark-blue);
+}
+
+.btn-add-score,
+.btn-remove-score {
+  background-color: var(--aquamarine);
+  color: var(--dark-blue);
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+/*///////////////////////////////
+//        Footer              //          
+/////////////////////////////*/
+svg {
+  margin-bottom: -35px;
+  z-index: 5;
+}
+
+footer {
+  width: 100vw;
+  height: 30vh;
+  color: var(--dark-blue);
+  font-size: 1.3rem;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-top: auto;
+  background-color: var(--yankees-blue);
+  z-index: 6;
+}
+
+footer span {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  color: var(--react);
+}
+
+footer img {
+  width: 90px;
+  height: auto;
+}
