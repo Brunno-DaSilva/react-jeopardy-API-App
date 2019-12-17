@@ -43,7 +43,7 @@ class JeopardyQuestion extends React.Component {
     state = {
       baseURL: "http://jservice.io/api/random",
       random: "",
-      score: 10
+      score: 0
     };
   
     handleChange = event => {
