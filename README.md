@@ -17,3 +17,8 @@ User can get a random question, interact with a button to review the correct ans
 ## Demo Link:
 
 Demo can be found deployed at the link https://dasilvabrunotexas.github.io/react-jeopardy-API-App/
+
+## Browser Limitation
+
+Some browsers might block the API call as identifying it as unsafe script, you can allow it enabling the scripts to run and the demo should work properly.  
+
