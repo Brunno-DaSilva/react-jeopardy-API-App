@@ -23,9 +23,17 @@ body {
   width: 100vw;
 }
 
-/*//////////////
-//   header  //
-////////////*/
+::selection {
+  background-color: #c1ecf8 ; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #c1ecf8; /* Gecko Browsers */
+}
+
+
+/*////////////////////////
+//       Header 
+///////////////////////*/
 
 header {
   min-width: 100%;
@@ -91,6 +99,15 @@ h2 {
   font-weight: 600;
   letter-spacing: 15px;
 }
+
+
+/*//////////////////////
+//    END - Header
+/////////////////////*/
+
+/*//////////////////////
+//     App Style
+/////////////////////*/
 
 input[type="button"],
 input[type="submit"],
@@ -212,6 +229,11 @@ form {
   border-radius: 5px;
   border: none;
 }
+
+
+/*////////////////////////////
+//      END- App Style
+//////////////////////////*/
 
 /*///////////////////////////////
 //        Footer              //          
