@@ -23,13 +23,13 @@ body {
   width: 100vw;
 }
 
-::selection {
-  background-color: #c1ecf8 ; /* WebKit/Blink Browsers */
-}
-::-moz-selection {
-  background: #c1ecf8; /* Gecko Browsers */
-}
 
+::-moz-selection {
+  background: #c1ecf8 !important; 
+}
+::selection {
+  background-color: #c1ecf8 !important; 
+}
 
 /*////////////////////////
 //       Header 
