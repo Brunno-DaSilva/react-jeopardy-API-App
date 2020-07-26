@@ -16,7 +16,7 @@ User can get a random question, interact with a button to review the correct ans
 
 ## Demo Link:
 
-Demo can be found deployed at the link https://dasilvabrunotexas.github.io/react-jeopardy-API-App/
+Demo can be found deployed at the link https://brunno-dasilva.github.io/react-jeopardy-API-App/
 
 ## Browser Limitation
 
