@@ -1,9 +1,8 @@
 # react-jeopardy-API-App
 
+The Jeopardy API App, it is a simple React App that utilizes ramdon data from the Jservices API http://jservice.io/.
 
-The Jeopardy API App, it is a simple React App that utilizes ramdon data from the Jservices API http://jservice.io/. 
-
-User can get a random question, interact with a button to review the correct answer, and finally if the answer is correct the user can add or decrease the questions bonus points. 
+User can get a random question, interact with a button to review the correct answer, and finally if the answer is correct the user can add or decrease the questions bonus points.
 
 ## Technologies Used:
 
@@ -13,12 +12,10 @@ User can get a random question, interact with a button to review the correct ans
 4. React
 5. Jservices API http://jservice.io/.
 
-
 ## Demo Link:
 
-Demo can be found deployed at the link https://brunno-dasilva.github.io/react-jeopardy-API-App/
+Demo can be found deployed at the link http://react-jeopardy-api.surge.sh/
 
 ## Browser Limitation
 
-Some browsers might block the API call as identifying it as unsafe script, you can allow it enabling the scripts to run and the demo should work properly.  
-
+Some browsers might block the API call as identifying it as unsafe script, you can allow it enabling the scripts to run and the demo should work properly.
