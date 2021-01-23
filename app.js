@@ -42,7 +42,7 @@ class JeopardyQuestion extends React.Component {
 
 class App extends React.Component {
   state = {
-    baseURL: "http://jservice.io/api/random",
+    baseURL: "https://jservice.io/api/random",
     random: "",
     score: 0,
   };
