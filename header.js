@@ -15,12 +15,17 @@ class Header extends React.Component {
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://bruno-dasilva.com/">
+              <a
+                title="My GitHub"
+                target="_blank"
+                href="https://github.com/Brunno-DaSilva"
+              >
                 Home
               </a>
             </li>
             <li>
               <a
+                title="My LinkedIn"
                 target="_blank"
                 href="https://www.linkedin.com/in/bruno-dasilva/"
               >
@@ -28,7 +33,11 @@ class Header extends React.Component {
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://github.com/Brunno-DaSilva">
+              <a
+                title="My Portfolio"
+                target="_blank"
+                href="https://bruno-dasilva.com/"
+              >
                 About
               </a>
             </li>
