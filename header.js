@@ -15,13 +15,22 @@ class Header extends React.Component {
               </a>
             </li>
             <li>
-              <a href="/#">Home</a>
+              <a target="_blank" href="https://bruno-dasilva.com/">
+                Home
+              </a>
             </li>
             <li>
-              <a href="#">Categories</a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/bruno-dasilva/"
+              >
+                Categories
+              </a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a target="_blank" href="https://github.com/Brunno-DaSilva">
+                About
+              </a>
             </li>
           </ul>
         </div>
